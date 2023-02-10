@@ -1,32 +1,33 @@
 .header-container {
   position: relative;
 }
+
 .header-menu {
   position: absolute;
   left: 0;
   top: 100px;
-
   letter-spacing: 1px;
   font-family: "Syncopate", sans-serif;
   color: #626262;
   font-weight: 600;
   text-transform: uppercase;
-
-  li {
-    margin: 10px 0;
-  }
 }
+.header-menu li {
+  margin: 10px 0;
+}
+
 #header-text {
   font-size: 20vw;
   text-transform: uppercase;
   text-align: center;
-
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 600;
 }
+
 .linesParent {
   overflow: hidden;
 }
+
 .linesChildren {
   transform: translate(0, 600px);
-}
+}/*# sourceMappingURL=style.css.map */
